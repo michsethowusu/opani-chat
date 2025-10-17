@@ -8,7 +8,7 @@ import torch
 # Model setup
 # --------------------------------------------------------------
 base_model_name = "unsloth/qwen3-4b-instruct-2507-unsloth-bnb-4bit"
-adapter_name = "michsethowusu/opani_coder"
+adapter_name = "michsethowusu/opani-coder"
 
 print("🔹 Loading model...")
 base_model = AutoModelForCausalLM.from_pretrained(
